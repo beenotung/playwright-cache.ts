@@ -2,6 +2,8 @@
 
 Cache web pages fetched using the Playwright.
 
+[![npm Package Version](https://img.shields.io/npm/v/playwright-cache.ts)](https://www.npmjs.com/package/playwright-cache.ts)
+
 This is particularly useful for web scraping where you might want to reduce the load on the server, or speed up the process by reusing previously fetched web pages.
 
 ## Installation
