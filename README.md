@@ -1,4 +1,4 @@
-# Playwright Cache
+# playwright-cache.ts
 
 Cache web pages fetched using the Playwright.
 
