@@ -28,7 +28,7 @@ yarn add playwright-cache
 
 ```typescript
 import { chromium } from 'playwright'
-import { PlaywrightCache, toOrigin } from './core'
+import { PlaywrightCache, toOrigin } from 'playwright-cache'
 
 async function main() {
   let browser = await chromium.launch({ headless: false })
