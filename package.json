@@ -2,23 +2,31 @@
   "name": "playwright-cache",
   "version": "1.0.0",
   "description": "Cache web pages fetched using the Playwright",
+  "keywords": [],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
   "main": "dist/core.js",
   "types": "dist/core.d.ts",
+  "files": [
+    "dist/core.d.ts",
+    "dist/core.js"
+  ],
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "peerDependencies": {
+    "playwright": "^1.38.1"
+  },
   "devDependencies": {
     "@types/node": "^20.8.9",
     "playwright": "^1.38.1",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "playwright": "^1.38.1"
   }
 }
