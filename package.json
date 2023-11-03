@@ -1,6 +1,6 @@
 {
   "name": "playwright-cache.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache web pages fetched using the Playwright",
   "keywords": [
     "playwright",
