@@ -2,7 +2,16 @@
   "name": "playwright-cache",
   "version": "1.0.0",
   "description": "Cache web pages fetched using the Playwright",
-  "keywords": [],
+  "keywords": [
+    "playwright",
+    "cache",
+    "web-scraping",
+    "playwright-cache",
+    "fetch",
+    "caching",
+    "scraping",
+    "typescript"
+  ],
   "author": {
     "name": "Beeno Tung",
     "email": "aabbcc1241@yahoo.com.hk",
