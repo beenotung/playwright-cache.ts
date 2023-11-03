@@ -9,26 +9,26 @@ This is particularly useful for web scraping where you might want to reduce the 
 To install this library, you can use npm, pnpm or yarn:
 
 ```bash
-npm install playwright-cache
+npm install playwright-cache.ts
 ```
 
 or
 
 ```bash
-pnpm install playwright-cache
+pnpm install playwright-cache.ts
 ```
 
 or
 
 ```bash
-yarn add playwright-cache
+yarn add playwright-cache.ts
 ```
 
 ## Usage Example
 
 ```typescript
 import { chromium } from 'playwright'
-import { PlaywrightCache, toOrigin } from 'playwright-cache'
+import { PlaywrightCache, toOrigin } from 'playwright-cache.ts'
 
 async function main() {
   let browser = await chromium.launch({ headless: false })
